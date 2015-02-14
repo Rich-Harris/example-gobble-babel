@@ -6,15 +6,13 @@
 </head>
 
 <body>
-	<!-- the bower_components folder is included in the build
-	     definition, so we can load RequireJS -->
-	<script src='requirejs/require.js'></script>
+	<!-- load the app.js script created by Browserify.
+	     this creates the `app` global -->
+	<script src='app.js'></script>
 
-	<!-- this loads app.js, which in turn loads foo.js -->
+	<!-- launch the app -->
 	<script>
-		require([ 'app' ], function ( app ) {
-			app.launch();
-		});
+		app.launch();
 	</script>
 </body>
 </html>
