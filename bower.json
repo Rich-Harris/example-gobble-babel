@@ -1,0 +1,7 @@
+{
+  "name": "gobble-example-6to5",
+  "version": "0.1.0",
+  "dependencies": {
+    "requirejs": "~2.1.16"
+  }
+}
