@@ -5,9 +5,6 @@ module.exports = gobble([
 	// include src/root files
 	gobble( 'src/root' ),
 
-	// include bower_components
-	gobble( 'bower_components' ),
-
 	gobble( 'src/js' )
 
 		// transpile src/js file with 6to5, creating
