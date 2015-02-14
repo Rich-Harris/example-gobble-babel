@@ -4,6 +4,7 @@
   "devDependencies": {
     "gobble": "^0.7.2",
     "gobble-6to5": "^3.0.0",
+    "gobble-amdclean": "^0.1.0",
     "gobble-requirejs": "^0.3.1"
   }
 }
