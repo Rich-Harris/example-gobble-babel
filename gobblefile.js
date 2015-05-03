@@ -8,10 +8,10 @@ module.exports = gobble([
 	// include bower_components
 	gobble( 'bower_components' ),
 
-	// transpile src/js file with 6to5, creating
+	// transpile src/js file with babel, creating
 	// AMD modules (NOT CommonJS) so that they
 	// can be loaded with RequireJS
-	gobble( 'src/js' ).transform( '6to5', {
+	gobble( 'src/js' ).transform( 'babel', {
 		modules: 'amd'
 	})
 
